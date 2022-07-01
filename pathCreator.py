@@ -81,7 +81,7 @@ def importPath(path):
 
 def export():
     name = input("path name ")
-    f = open("/Users/keijayhuang/Desktop/2496r-2022-2023/2496r/paths/" + name + ".cpp",'w')
+    f = open("robotics/" + name + ".cpp",'w')
     f.write("coordinate cords[] = {")
     for i in range(len(path)):
         f.write("coordinate(" + str(path[i][0]) + "," + str(path[i][1]) + "), ")
