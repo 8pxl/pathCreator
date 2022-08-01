@@ -1,7 +1,5 @@
-from pynput import keyboard
 from tkinter import *
 import tkinter
-import pyautogui as pg
 
 canvas_width = 18*40 + 200
 canvas_height = 18*40 + 100
